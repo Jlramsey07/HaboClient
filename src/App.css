@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+/* Custom Code */
+
+.fill {
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fit {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div.spacer-1 {
+  padding: 20vh;
+}
+
+.text-white {
+  color: white
+}
+
+.dim {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.75;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.container-1 {
+  max-width: 100%;
+  padding: 50px 0px 20px 0px;
+}
+
+.review-box, .user-box-1 {
+  box-shadow: 0 1px 3px grey;
+  background: #f2f2f2;
+  margin: 0 0 20px 0;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.review-user-icon {
+  width: 50px;
+  max-width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
