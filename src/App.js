@@ -49,26 +49,18 @@ class App extends React.Component {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           zIndex: '-100',
-          overflowY: 'scroll',
         }}>
-          <div className="dim" style={{
-            position: 'fixed',
-            top: '0',
-            left: '0',
-            height: '100vh',
-            width: '100%',
-            display: 'block',
-          }}></div>
-          
-          <main id="main-container" style={{position: 'relative'}}>
-            <Route exact path='/' component={WelcomePage} />
-            <Route exact path='/about' component={AboutPage} />
-            <Route exact path='/search' component={SearchPage} />
-            <Route exact path='/signup' component={SignupPage} />
-            <Route exact path='/signin' component={SigninPage} />
-            <Route path='/users/:id' component={UserPage} />
-          </main>
+          <div className="dim"></div>
         </div>
+
+        <main id="main-container" style={{position: 'relative'}}>
+          <Route exact path='/' component={WelcomePage} />
+          <Route exact path='/about' component={AboutPage} />
+          <Route exact path='/search' component={SearchPage} />
+          <Route exact path='/signup' component={SignupPage} />
+          <Route exact path='/signin' component={SigninPage} />
+          <Route path='/users/:id' component={UserPage} />
+        </main>
       </div>
     );
   }
