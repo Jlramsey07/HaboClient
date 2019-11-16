@@ -51,6 +51,7 @@ div.spacer-1 {
   left: 0px;
   background-color: black;
   opacity: 0.75;
+  display: block;
 }
 
 .pos-rel {
